@@ -1,0 +1,17 @@
+[project]
+name = "sugarcare"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Waterlemon14",email = "edaldemita@up.edu.ph"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "keras (>=3.9.2,<4.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
